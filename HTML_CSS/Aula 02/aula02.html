@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> AULA 02 - HTML/CSS </title>
+
+  <style>
+    p {
+      /* muda a cor da fonte */
+      color: black;
+      /* muda o tamanho da fonte */
+      font-size: 30pt;
+      /* muda o fundo do elemento/texto */
+      background-color: lightblue;
+      /* delimita a extensão dos mods */
+      max-width: fit-content;
+      /* font-family mostra as fontes possíveis */
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body {
+      background-color: darkgray;
+    }
+
+    .sublinhado {
+      text-decoration: underline;
+    }
+
+    #tituloPrincipal {
+      font-size: 40pt;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      text-align: center;
+      background-color: white;
+      color: black;
+    }
+
+    img {
+      width: 500pt;
+      height: auto;
+      border: 10px solid black;
+      border-radius: 10%;
+      padding: 10px
+    }
+  </style>
+</head>
+
+<body>
+
+  <h1 id="tituloPrincipal"> TÍTULO SINISTREIRA </h1>
+  <h3> SUBTÍTULO SINISTRO </h3>
+  <p> Lorem ipsum dolor <span class="sublinhado"> sit amet </span> consectetur adipisicing elit </p>
+  <p> Lorem ipsum dolor sit amet <span class="sublinhado"> consectetur </span> adipisicing elit </p>
+  <p> Lorem ipsum dolor sit amet consectetur adipisicing elit </p>
+  <img src="600px-G2_Esports_2020_full_lightmode.png" alt="Logo G2 eSports">
+</body>
+
+</html>
