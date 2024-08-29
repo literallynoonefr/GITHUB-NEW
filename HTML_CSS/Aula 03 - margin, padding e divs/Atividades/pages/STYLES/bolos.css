@@ -1,9 +1,11 @@
-*{
-  
-}
-
 body{
   background-image: url(../images/174774-dark-yellow-oil-painting-background.jpg);
+}
+
+
+
+header h3, header p{
+  margin: 0px 20px;
 }
 
 #cabecalho{

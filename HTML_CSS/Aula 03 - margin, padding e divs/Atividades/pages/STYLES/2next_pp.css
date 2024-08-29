@@ -1,0 +1,44 @@
+*{
+  margin: 0%;
+  padding: 0%;
+}
+
+header, footer{
+  width: 100%;
+  padding: 10px 0px;
+  background-color: chocolate;
+  color: black;
+}
+
+footer p{
+  padding: 0px 10px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+header h3, header p{
+  margin: 5px 10px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+main{
+  width: 80%;
+  padding: 10px;
+  background-color: gray;
+  margin: 10px auto;
+  height: 1300px;
+}
+
+#about_us{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  width: 80%;
+  float: left; 
+}
+
+#menu_links{
+  float:right;
+  background-color: orangered;
+}
+
+#about_us img{
+  width: 125%;
+}
