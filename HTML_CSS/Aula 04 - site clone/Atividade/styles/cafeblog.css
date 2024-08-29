@@ -1,0 +1,59 @@
+*{
+  margin: 0%;
+  padding: 0%;
+}
+
+header h1{
+  text-align: center;
+  background-color: rgba(110, 67, 6, 0.736);
+  padding: 10px;
+  width: 100%;
+  margin: 0px;
+  margin-left: -10px;
+  margin-top: -10px;
+}
+
+#menu_links{
+  text-align: center;
+  background-color: rgb(223, 223, 187);
+  padding: 19px 0px;
+  width: 100%;
+  
+}
+
+main{
+  background-color: rgba(134, 130, 130, 0.536);
+  border-radius: 15px;
+  width: 80%;
+  margin: 10px auto;
+  height: 900px;
+}
+
+#vtg_cafe img{
+  width: 50%;
+  border-radius: 15px;
+  display: block;
+  margin: 0 auto;
+  background-color: whitesmoke;
+}
+
+#vtg_cafe h2{
+  text-align: center;
+  padding: 50px;
+}
+
+footer{
+  background-color: black;
+  padding: 30px;
+  margin-right: -10px;
+  margin-left: -10px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+#logo_logo{
+  width: 3%;
+  float: left;
+  height: -5px;
+  margin-left: -9px;
+}
