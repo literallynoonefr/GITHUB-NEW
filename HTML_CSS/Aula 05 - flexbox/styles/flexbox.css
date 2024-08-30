@@ -1,0 +1,38 @@
+*{
+  margin: 0%;
+  padding: 0%;
+}
+
+.pai{
+  width: 300px;
+  padding: 20px;
+  background-color: cadetblue;
+  display: flex;
+  flex-direction: row;
+  /* vértice X */
+  /* stretch - estica o elemento */
+  justify-content: space-between;
+  height: 500px;
+  align-items: center;
+}
+
+#pai2{
+  height: 100px;
+  justify-content: start;
+  align-items: start;
+  margin-top: 20px;
+  /* wrap previne a distorção do elemento */
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+#pai2 .filho{
+  margin: 0px;
+}
+
+.filho{
+  width: 30px;
+  height: 30px;
+  margin: 5px;
+  background-color: red;
+}

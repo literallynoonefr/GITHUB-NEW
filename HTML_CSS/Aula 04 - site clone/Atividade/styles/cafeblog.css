@@ -7,10 +7,11 @@ header h1{
   text-align: center;
   background-color: rgba(110, 67, 6, 0.736);
   padding: 10px;
-  width: 100%;
-  margin: 0px;
-  margin-left: -10px;
-  margin-top: -10px;
+}
+
+section h2{
+  margin-bottom: -2%;
+  font-size: 25pt;
 }
 
 #menu_links{
@@ -21,12 +22,27 @@ header h1{
   
 }
 
+#menu_links a{
+  text-decoration: none;
+  color: rgba(110, 67, 6, 0.736);
+  font-size: 15pt;
+  margin: 0 15px;
+}
+
 main{
   background-color: rgba(134, 130, 130, 0.536);
   border-radius: 15px;
   width: 80%;
   margin: 10px auto;
   height: 900px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+main p{
+  margin-left: 10px;
+  margin-right: 10px;
+  text-align: justify;
+  font-size: 15pt;
 }
 
 #vtg_cafe img{
@@ -35,6 +51,7 @@ main{
   display: block;
   margin: 0 auto;
   background-color: whitesmoke;
+  margin-bottom: 30px;
 }
 
 #vtg_cafe h2{
@@ -44,11 +61,8 @@ main{
 
 footer{
   background-color: black;
-  padding: 30px;
-  margin-right: -10px;
-  margin-left: -10px;
-  margin-bottom: 10px;
-  width: 100%;
+  padding: 20px;
+  margin-bottom: 0px; 
 }
 
 #logo_logo{
