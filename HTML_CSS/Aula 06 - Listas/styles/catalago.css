@@ -44,7 +44,8 @@ header a{
   gap: 50px;
   margin: 10px;
   flex-basis: ;
-  width: 150%;
+  width: 10%;
+  flex-wrap: wrap;
 }
 
 /* https://tobiasahlin.com/blog/flexbox-break-to-new-row/ */
