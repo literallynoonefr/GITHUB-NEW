@@ -1,0 +1,88 @@
+*{
+  padding: 0%;
+  margin: 0%;
+}
+
+header, footer{
+  width: 100%;
+  padding: 20px 0px;
+  background-color: darkgreen;
+  display: flex;
+  justify-content: space-around;
+}
+
+header a{
+  text-decoration: none;
+  color: aliceblue;
+}
+
+main{
+  width: 90%;
+  box-shadow: 5px 5px 5px black;
+  margin: 10px auto;
+  padding: 5px;
+}
+
+h1{
+  font-size: 40pt;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: rgb(0, 0, 0);
+}
+
+h2{
+  font-size: 30pt;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-align: center;
+  color: rgb(19, 43, 200);
+}
+
+h4{
+  font-size: 20pt;
+  text-align: center;
+
+}
+
+#novidades ul{
+  background-color: rgb(23, 100, 201);
+  border-radius: 15px;
+  width: 30%;
+  margin: 10px auto;
+  display: flex;
+  align-items: center;
+  height: 100px;
+  justify-content: center;
+  gap: 40px;
+}
+
+.livro{
+  width: 200px;
+  padding: 20px;
+  margin: 20px auto;
+  background-color: rgb(18, 130, 215);
+  border-radius: 15px;
+}
+
+footer{
+  flex-direction: column;
+  align-items: center;
+}
+
+footer ul{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  list-style: none;
+  gap: 5px;
+}
+
+footer li{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+footer a{
+  text-decoration: none;
+  color: rgb(32, 189, 29);
+}
+

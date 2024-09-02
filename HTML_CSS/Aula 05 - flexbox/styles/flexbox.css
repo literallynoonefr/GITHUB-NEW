@@ -9,7 +9,7 @@
   background-color: cadetblue;
   display: flex;
   flex-direction: row;
-  /* vértice X */
+  /* Eixo X */
   /* stretch - estica o elemento */
   justify-content: space-between;
   height: 500px;

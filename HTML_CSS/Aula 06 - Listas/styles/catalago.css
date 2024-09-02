@@ -1,0 +1,50 @@
+*{
+  padding: 0%;
+  margin: 0%;
+}
+
+body{
+  background-image: url(susan-q-yin-2JIvboGLeho-unsplash.jpg);
+  background-size: cover;
+}
+
+header h1{
+  background-color: darkgreen;
+  width: 100%;
+  padding: 20px 0px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 40pt;
+  text-align: center;
+}
+
+header a{
+  text-decoration: none;
+  color: aliceblue;
+}
+
+#links{
+  float: left;
+  margin-top: -62px;
+  margin-left: 100px;
+  font-size: 15pt;
+}
+
+.books{
+  background-color: darkgreen;
+  width: 150%;
+  margin: 20px auto;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+#catalog ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 50px;
+  margin: 10px;
+  flex-basis: ;
+  width: 150%;
+}
+
+/* https://tobiasahlin.com/blog/flexbox-break-to-new-row/ */
