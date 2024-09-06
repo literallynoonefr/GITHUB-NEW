@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aula 10 CSS</title>
+  <link rel="stylesheet" href="styles/index.css">
+</head>
+<body>
+  <header>
+    <a href="index.html" id="logo">
+      DARK WEB
+    </a>
+
+    <div id="pesquisa">
+      <input type="text" placeholder="Pesquise um produto">
+      <button type="button" id="search_button">Pesquisar</button>
+    </div>
+
+    <nav>
+      <a href="#">HOME</a>
+      <a href="#">CATÁLOGO</a>
+    </nav>
+  </header>
+
+  <main>
+    <h1>A MELHOR LOJA DO PAÍS</h1>
+
+    <h1>CATÁLOGO</h1>
+
+    <div id="catalago">
+      <div class="produto">
+        <!-- Nome do Produto + Imagem -->
+         <div>
+          <h2>Placa de Vídeo RTX 4090 OC Asus NVIDIA ROG Strix</h2>
+          <img src="images/placa-de-video-asus-nvidia-rog-strix-rtx-4090-edition-24-gb-gddr6x-argb-dlss-ray-tracing-90yv0iw0-m0nan00_1665170163_original.jpg" alt="Imagem#">
+        </div>
+        <!-- Descrição do produto + Preço -->
+        <div>
+          <p>24 GB GDDR6X, ARGB, DLSS, Ray Tracing - ROG-STRIX-RTX4090-O24G-GAMING</p>
+          <p class="preco" id="product_1">R$ 100</p>
+          <button type="button" id="buy_button">COMPRAR</button>
+        </div>
+      <!-- SEMPRE CRIAR UMA DIV PARA DIFERENTES ORIENTAÇÕES (DIREITA e ESQUERDA) -->
+
+      </div>
+    </div>
+  </main>
+  <footer></footer>
+</body>
+</html>

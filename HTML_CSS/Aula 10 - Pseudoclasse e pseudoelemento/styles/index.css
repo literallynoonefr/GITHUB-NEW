@@ -1,0 +1,126 @@
+*{
+  margin: 0%;
+  padding: 0%;
+}
+
+:root{
+  --primary : rgb(0, 106, 255);
+  --fonte : "trebuchet";
+  --fonte_color : white;
+  --title_size : 48px;
+}
+
+
+header, footer{
+  width: 100%;
+  background-color: var(--primary);
+  color: var(--fonte_color);
+  padding: 20px 0px;
+  display: flex;
+  justify-content: space-around;
+}
+
+footer{
+  margin-top: 10px;
+  padding: 40px;
+}
+
+input{
+  width: 200px;
+  border-radius: 5px;
+  padding: 5px;
+  background-color: rgba(176, 173, 170, 0.915);
+  border: 2px solid black;
+}
+
+input:focus{
+  padding: 7px;
+  border: none;
+  outline-style: none;
+  border: 2px solid red;
+  transition: 0.2s;
+}
+
+/* Na utilização do transition, para tornar a "saída" mais suave deve-se colocar no elemento original também! */
+#search_button{
+  padding: 5px;
+  color: var(--primary);
+  transition: 0.2s;
+}
+
+#search_button:hover{
+  background-color: var(--primary);
+  color: white;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+#search_button:active{
+  background-color: rgb(217, 0, 255);
+}
+
+#buy_button{
+  padding: 10px;
+  width: 200px;
+}
+
+a{
+  color: var(--fonte_color);
+  text-decoration: none;
+  margin: 0px 15px;
+}
+
+a[href="index.html"]{
+  color: rgb(255, 1, 1);
+  font-size: 15pt;
+}
+
+a:hover{
+  color: deepskyblue;
+}
+
+/* main */
+
+main{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.produto{
+
+}
+
+.produto img{
+  width: 500px;
+}
+
+/* "+" = ex.: se "h1" for seguido de um "p" (parágrafo), então... */
+/* ">" = ex.: elemento filho (p) dentro do elemento pai (h1) <h1> <p></p> </h1>, então...*/
+h1:has(+ p){
+  color: rgb(29, 0, 253);
+}
+
+/* se não for o que está dentro do (), então */
+/* p:not(.preco) = todo parágrafo (p) que não for (not) acompanhado da classe preço (.preco), então faça... */
+/* tudo que não for preço (acompanhado da classe preço), então receba este valor */
+/* : comportamento */
+/* :: coisas que aparecem na interface (imagens, textos...) */
+p:not(.preco){
+  color: rgb(255, 149, 0);
+}
+
+h1::after{
+  content: "💀";
+}
+
+h1::before{
+  content: "💀";
+}
+
+::placeholder{
+  color: brown;
+}
+
