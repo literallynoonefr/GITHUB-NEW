@@ -12,7 +12,7 @@ main{
 }
 
 #salario{
-  width: 40%;
+  width: 30%;
 }
 
 #salario img{
@@ -21,12 +21,40 @@ main{
 
 input{
   height: 20px;
-  width: 400px;
+  width: 450px;
   border: none;
   border-bottom: 1px solid gray;
+  font-size: 13pt;
 }
 
 td, th{
   border: 2px solid black;
   padding: 8px;
+}
+
+table{
+  border-collapse: collapse;
+}
+
+#calc_button{
+  width: 13%;
+  padding: 15px;
+  background-color: rgb(30, 200, 206);
+  font-size: 15pt;
+  color: white;
+  font-weight: bold;
+  border-bottom: 5px solid gray;
+  border-right: none;
+  border-left: none;
+  border-top: none;
+  border-radius: 10px;  
+}
+
+#calc_button:hover{
+  color: black;
+  cursor: pointer;
+}
+
+#calc_button:active{
+  background-color: rgb(89, 255, 47);
 }
