@@ -1,0 +1,46 @@
+*{
+  margin: 0%;
+  padding: 0%;
+}
+
+header{
+  background-color: #2A2B2A;
+  padding: 40px;
+  display: flex;
+  justify-content: space-around;
+}
+
+header h1{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: bisque;
+}
+
+nav{
+  display: flex;
+  align-items: center;
+}
+
+nav a{
+  text-decoration: none;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: bisque;
+  margin: 0px 15px;
+}
+
+h2{
+  text-align: center;
+  padding: 20px;
+  font-size: 25pt;
+  border-bottom: 2px solid gray;
+  margin: 0px 600px;
+}
+
+#eliza{
+  width: 600px;
+  display: block;
+  margin: 20px auto;
+}
+
+#eliza img{
+  width: 100%;
+}

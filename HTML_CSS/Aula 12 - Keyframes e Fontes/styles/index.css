@@ -1,0 +1,62 @@
+@keyframes teste{
+  0%{
+    background-color: var(--cor1);
+  }
+  50%{
+    background-color: var(--cor2);
+  }
+  100%{
+    background-color: var(--cor3);
+    padding: 150px;
+  }
+}
+
+#animatronic{
+  width: 100px;
+  height: 100px;
+  background-color: var(--cor4);
+}
+
+#animatronic:hover{
+  animation-name: teste;
+  animation-duration: 2s;
+  animation-iteration-count: 3;
+}
+
+@font-face{
+  src: url(../fonts/Roboto_Slab/static/RobotoSlab-Regular.ttf);
+  font-family: Roboto_Slab;
+}
+
+@font-face{
+  src: url(../fonts/Roboto_Slab/static/RobotoSlab-Bold.ttf);
+  font-family: Roboto_Slab;
+  font-weight: bold;
+}
+
+@font-face{
+  src: url(../fonts/Matrix/matrix.ttf);
+  font-family: matrix;
+}
+
+*{
+  margin: 0%;
+  padding: 0%;
+  font-family: Roboto_Slab;
+}
+
+:root{
+  --cor1 : red;
+  --cor2 : green;
+  --cor3 : gray;
+  --cor4 : blue;
+  --branco : white;
+}
+
+h2, h3, h4{
+  font-family: matrix;
+  text-align: center;
+  font-size: 35pt;
+  padding: 10px;
+  color: rgb(1, 32, 133);
+}
