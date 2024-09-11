@@ -1,0 +1,12 @@
+@media screen and (orientation: landscape) {
+    body{
+        background-color: aqua;
+    }
+}
+
+@media screen and (orientation: portrait) {
+    body{
+        background-color: red;
+    }
+}
+

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design Responsivo</title>
+    <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" media="screen and (max-width: 700px)" href="styles/@MediaMobile.css">
+</head>
+<body>
+    <header>
+        <div id="logo">Logo</div>
+        <button id="botao_menu" onclick="menu()">BOTÃO</button>
+        <nav id="menu_pc"> 
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="#">Página 1</a></li>
+                <li><a href="#">Página 2</a></li>
+            </ul>
+        </nav>
+
+        <nav id="menu_mobile">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="#">Página 1</a></li>
+                <li><a href="#">Página 2</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- <img src="images/mulherdancando.jpg" alt="BANNER"> -->
+         <picture>
+            <source media="screen and (max-width: 700px)" srcset="images/mulherdancandoMenor.jpg">
+            <img src="images/mulherdancando.jpg" alt="BANNER">
+         </picture>
+
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas ratione placeat cumque dignissimos laudantium voluptates facere ducimus? Nam, natus sit aperiam similique numquam eaque, magni illum aliquam ullam veritatis debitis?</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas ratione placeat cumque dignissimos laudantium voluptates facere ducimus? Nam, natus sit aperiam similique numquam eaque, magni illum aliquam ullam veritatis debitis?</p>
+    </main>
+
+    <footer>
+        Todos os direitos reservados.
+    </footer>
+
+    <script>
+        function menu(){
+            if(menu_mobile.style.display == "none"){
+                menu_mobile.style.display = "flex"
+            
+            }else{
+                menu_mobile.style.display = "none"
+            }
+        }
+    </script>
+
+</body>
+</html>
