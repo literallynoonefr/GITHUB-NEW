@@ -84,7 +84,6 @@ nav a{
     font-size: 20pt;
 }
 
-
 #botao2{
     border: 2px solid white;
     padding: 20px;
@@ -111,17 +110,170 @@ nav a{
     text-align: center;
 }
 
+
+/* SEÇÃO INICIAL */
 #payment_method{
     display: flex;
     justify-content: center;
-    gap: 40px;
+    gap: 100px;
 }
 
-#pay_button img{
+#pay_button1 img{
     width: 100%;
 }
 
-#pay_button{
-    padding: 50px;
+#pay_button1{
+    padding: 53.2px;
+    font-size: 15pt;
+    font-weight: bold;
+}
+
+#pay_button2 img{
+    width: 100%;
+}
+
+#pay_button2{
+    padding: 52px;
+    font-size: 15pt;
+    font-weight: bold;
+}
+
+#pay_button3 img{
+    width: 100%;
+}
+
+#pay_button3{
+    padding: 45px;
+    font-size: 15pt;
+    font-weight: bold;
+}
+
+#pay_button1:hover, #pay_button2:hover, #pay_button3:hover{
+    cursor: pointer;
+    background-color: rgb(255, 119, 0);
+}
+
+#pay_button1:active, #pay_button2:active, #pay_button3:active{
+background-color: white;
+color: rgb(255, 119, 0);
+}
+
+
+/* SEÇÃO CENTRAL */
+#mid_banner{
+    margin-top: 50px;
+    background-color: #362601;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+}
+
+#mid_banner h1{
+    font-size: 30pt;
+    color: rgb(255, 119, 0);
+}
+
+#mid_banner p{
+    font-size: 20pt;
+    text-align: justify;
+}
+
+.banner_interior{
+    width: 700px;
+}
+
+.banner_interior img{
+    width: 100%;
+    border-radius: 15px;
+}
+
+
+/* SEÇÃO FINAL */
+#final_sect{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    
+}
+
+.cartoes_illus{
+    width: 400px;
+    height: 460px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 15px;
+}
+
+.cartoes_illus img{
+    width: 100%;
+    position: absolute;
+    bottom: 0%;
+}
+
+.cartoes_illus2{
+    width: 400px;
+    height: 460px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 15px;
+}
+
+.cartoes_illus2 img{
+    width: 100%;
+    position: absolute;
+    top: -30%;
+}
+
+
+/* TABELA */
+#tabela{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+table{
+    border-collapse: collapse;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    padding-bottom: 90px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 25px;
+}
+
+td, th{
+    border: 2px solid black;
+    padding: 30px;
+}
+
+thead th{
+    border: none;
+    font-size: 25pt;
+    color: black;
+    background-color: transparent;
+}
+
+th{
+    background-color: red;
+    color: white;
+}
+
+th:empty{
+    border: none;
+    background-color: transparent;
+}
+
+
+/* FOOTER */
+footer{
+    background: red;
+    color: white;
+    font-size: 15pt;
+    padding: 15px;
+    text-align: center;
 }
 
