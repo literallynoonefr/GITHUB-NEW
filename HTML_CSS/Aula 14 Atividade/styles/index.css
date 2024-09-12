@@ -55,7 +55,73 @@ nav a{
     width: 100%;
 }
 
+#bg_text{
+    position: absolute;
+    top: 60%;
+    background: linear-gradient(90deg, rgba(59,39,10,1) 0%, rgba(121,61,9,1) 35%, rgba(255,128,0,1) 100%);
+    height: 130px;
+    opacity: 70%;
+    width: 600px;
+    padding: 60px;
+}
+
 .overtext{
     position: absolute;
     top: 60%;
+    padding: 40px;
+    display: flex;      
+    flex-direction: column;
+    gap: 20px;
 }
+
+.overtext h1{
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.overtext p{
+    color: white;
+    font-size: 20pt;
+}
+
+
+#botao2{
+    border: 2px solid white;
+    padding: 20px;
+    background-color: #000000;
+    color: white;
+    font-size: 15pt;
+    font-weight: bold;
+    border-radius: 10px;
+    width: 250px;  
+}
+
+#botao2:hover{
+    cursor: pointer;
+    background-color: rgb(255, 119, 0);
+}
+
+#botao2:active{
+    background-color: white;
+    color: #ba2d2d;
+}
+
+#t_pay{
+    margin: 50px;
+    text-align: center;
+}
+
+#payment_method{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+#pay_button img{
+    width: 100%;
+}
+
+#pay_button{
+    padding: 50px;
+}
+
