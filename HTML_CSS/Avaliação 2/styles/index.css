@@ -4,7 +4,7 @@
 }
 
 
-/* HEADER OPEN */
+/* HEADER OPEN pp.1*/
 header{
     display: flex;
     align-items: center;
@@ -45,10 +45,10 @@ nav a{
 #logo2 img{
     width: 100%;
 }
-/* HEADER CLOSE^ */
+/* ^HEADER CLOSE^ */
 
 /* MAIN */
-main h1{
+#title_center{
     text-align: center;
     padding: 15px;
 }
@@ -62,7 +62,6 @@ main h1{
 #banner img{
     width: 100%;
 }
-
 
 #section1{
     width: 100%;
@@ -94,103 +93,254 @@ main h1{
 #section2{
     width: 100%;
     display: flex;
-    justify-content: start;
+}
+
+#categorias1{
+    width: 23%;
     padding: 10px;
-}
-
-#cat_prods{
     border-right: 3px solid black;
-    height: 240px;
-    padding-right: 10px;
-    padding-bottom: 100px;
+    height: 500px;
 }
 
-#actual_prods{
-    padding: 20px;
-    width: 500px;
+#mega_div{
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
-
+    padding: 40px;
 }
 
-
-
-.galeria_imagem{
-    width: 100%;
-    height: 200px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+.categorias2{
+   width: 20%;
+   height: 400px;
+   margin-right: 50px;
 }
 
-#actual_prods img{
+.categorias2 img{
     width: 100%;
 }
 
-#galeria_img1{
-    background-image: url(../images/42b7b6ca1e96e9ce61e8d612b6488baa-removebg-preview.png);
+#section3{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 30px;
 }
 
-#galeria_img2{
-    background-image: url(../images/42b7b6ca1e96e9ce61e8d612b6488baa-removebg-preview.png);
+.explore_div{
+    width: 200px;
 }
 
-#galeria_img3{
-    background-image: url(../images/42b7b6ca1e96e9ce61e8d612b6488baa-removebg-preview.png);
+.explore_div img{
+    width: 100%;
 }
-
-#galeria_img4{
-    background-image: url(../images/42b7b6ca1e96e9ce61e8d612b6488baa-removebg-preview.png);
-}
-
-#galeria_img5{
-    background-image: url(../images/42b7b6ca1e96e9ce61e8d612b6488baa-removebg-preview.png);
-}
-
-#galeria_img6{
-    background-image: url(../images/42b7b6ca1e96e9ce61e8d612b6488baa-removebg-preview.png);
-}
-
-#galeria_img7{
-    background-image: url(../images/42b7b6ca1e96e9ce61e8d612b6488baa-removebg-preview.png);
-}
-
-#galeria_img8{
-    background-image: url(../images/42b7b6ca1e96e9ce61e8d612b6488baa-removebg-preview.png);
-}
+/* ^MAIN CLOSE^ */
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* FOOTER */
 footer{
     background-color: black;
     color: white;
-    text-align: center;
+    padding: 15px;
+    display: flex;
+    justify-content: start;
+}
+
+.rodape{
+    display: flex;
+    flex-direction: column;
     padding: 15px;
 }
+
+#copyr{
+    display: flex;
+    align-items: center;
+    margin: 0px 400px;
+}
+/* ^FOOTER CLOSE pp.1^ */
+
+
+
+
+
+
+/* CATÁLOGO pp.2*/
+#selected_product{
+    display: flex;
+    padding: 15px;
+    gap: 10px;
+}
+
+#buy{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: -55px;
+    padding: 15px;
+}
+
+#buy_button{
+    width: 150px;
+    height: 40px;
+}
+
+main hr{
+    width: 800px;
+    margin-left: 527px;
+}
+
+#section_catal{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#mega_div2{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 40px;
+    justify-content: center;
+}
+
+.categorias_catal{
+   width: 20%;
+   height: 400px;
+   margin-right: 50px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+.categorias_catal img{
+    width: 100%;
+}
+/* ^CATÁLAGO pp.2 END^ */
+
+
+
+
+
+
+/* CADASTRO pp.3 */
+#signup{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.cadastro_ban{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    gap: 10px;
+    justify-content: center;
+}
+
+#cad_input{
+    width: 300px;
+    padding: 10px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+}
+
+#button_cadastro{
+    /* display: flex;
+    justify-content: center;
+    width: 150px;
+    align-items: center; */
+    margin: 10px 90px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid lightgray;
+    background-color: gray;
+}
+
+#button_cadastro:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+#button_cadastro:active{
+    background-color: gray;
+    color: black;
+}
+
+.cadastro_ban h3{
+    border-top: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+/* ^CADASTRO pp.3 END^ */
+
+
+
+
+
+
+/* LOGIN pp.4 */
+#login1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login_ban{
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 35px;
+    gap: 15px;
+}
+
+.login_ban h1{
+    margin: 0px 75px;
+}
+
+
+
+#login_ban img{
+    width: 100%;
+}
+
+#login_input{
+    width: 300px;
+    padding: 10px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+}
+
+#button_login{
+    display: flex;
+    justify-content: center;
+    width: 150px;
+    align-items: center;
+    margin: 10px 90px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid lightgray;
+    background-color: gray;
+}
+
+#button_login:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+#button_login:active{
+    background-color: gray;
+    color: black;
+}
+
+.login_ban h3{
+    border-top: 1px solid black;
+    width: 310px;
+    padding: 10px;
+    text-align: center;
+}
+/* ^LOGIN pp.4 END^ */
