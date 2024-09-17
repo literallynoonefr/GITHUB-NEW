@@ -100,6 +100,13 @@ nav a{
     padding: 10px;
     border-right: 3px solid black;
     height: 500px;
+    font-size: 16pt;
+}
+
+#cat_inputs{
+    width: 100px;
+    transform: scale(2);
+    
 }
 
 #mega_div{
@@ -129,6 +136,8 @@ nav a{
 
 .explore_div{
     width: 200px;
+    text-align: center;
+    font-size: 16pt;
 }
 
 .explore_div img{
@@ -180,7 +189,23 @@ footer{
 
 #buy_button{
     width: 150px;
-    height: 40px;
+    height: 55px;
+    font-size: 15pt;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: gray;
+    border: 1px solid lightgray;
+}
+
+#buy_button:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+#buy_button:active{
+    background-color: gray;
+    color: black;
 }
 
 main hr{
@@ -236,6 +261,7 @@ main hr{
     padding: 50px;
     gap: 10px;
     justify-content: center;
+    font-size: 15pt;
 }
 
 #cad_input{
@@ -251,10 +277,11 @@ main hr{
     width: 150px;
     align-items: center; */
     margin: 10px 90px;
-    padding: 10px;
+    padding: 15px;
     border-radius: 10px;
     border: 1px solid lightgray;
     background-color: gray;
+    font-size: 15pt;
 }
 
 #button_cadastro:hover{
@@ -295,13 +322,12 @@ main hr{
     justify-content: center;
     padding: 35px;
     gap: 15px;
+    font-size: 13pt;
 }
 
 .login_ban h1{
-    margin: 0px 75px;
+    margin: 0px 65px;
 }
-
-
 
 #login_ban img{
     width: 100%;
@@ -320,10 +346,11 @@ main hr{
     width: 150px;
     align-items: center;
     margin: 10px 90px;
-    padding: 10px;
+    padding: 15px;
     border-radius: 10px;
     border: 1px solid lightgray;
     background-color: gray;
+    font-size: 15pt;
 }
 
 #button_login:hover{
