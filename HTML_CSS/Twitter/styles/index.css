@@ -1,0 +1,58 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background-color: rgb(66, 66, 66);
+}
+
+#master_header{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+
+}
+
+#master_header h1{
+    color: white;
+}
+
+#header_div1{
+    width: 60px;  
+}
+
+#header_div1 img{
+    width: 100%;
+}
+
+#lupinha{
+    width: 25px;
+    float: left;
+    margin: 0px 0px;
+    background-color: rgb(114, 112, 112); 
+    padding: 5px;
+}
+
+#header_div2{}
+
+#search_input{
+    padding: 10px;
+    width: 200px;
+    background-color: rgb(114, 112, 112);
+    border: none;
+}
+
+::-webkit-input-placeholder{
+    color: lightgray;
+}
+
+#search_input:active{
+    border: 0;
+    outline: none;
+}
+
+#search_input:focus{
+    outline: none;
+}
