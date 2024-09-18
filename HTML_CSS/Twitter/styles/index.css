@@ -4,7 +4,7 @@
 }
 
 body{
-    background-color: rgb(66, 66, 66);
+    background-color: rgb(36, 34, 34);
 }
 
 #master_header{
@@ -55,4 +55,89 @@ body{
 
 #search_input:focus{
     outline: none;
+}
+
+#main_section{
+    display: flex;
+    justify-content: space-around;
+    padding: 35px;
+}
+
+#lateral_1{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 65px;
+    width: 30%; 
+}
+
+#lateral_1 a{
+    text-decoration: none;
+    color: white;
+    font-size: 15pt;
+}
+
+#button_div{
+    margin-left: 90px;
+}
+
+#button_tweet{
+    cursor: pointer;
+    background-color: rgb(85, 188, 252);
+    color: white;
+    font-weight: bold;
+    font-size: 12pt;
+    padding: 15px;
+    border-radius: 30px;
+    width: 105px;
+    border: none;
+}
+
+#button_tweet:hover{
+    cursor: pointer;
+    background-color: white;
+    color: rgb(85, 188, 252);
+}
+
+#button_tweet:active{
+    cursor: pointer;
+    background-color: rgb(85, 188, 252);
+    color: white;
+}
+
+#middle_div{
+    width: 30%;
+    border: 1px solid gray;
+    padding: 40px;
+    color: white;
+}
+
+.posts_i img{
+    width: 100%;
+    margin: 10px 0px;
+}
+
+#lateral_2{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+#lat2_styling{
+    width: 300px;
+    background-color: rgb(102, 123, 130);
+    padding: 40px;
+    border-radius: 10px;
+    height: 360px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#icones{
+    display: flex;
+    justify-content: center;
+    gap: 105px;
 }
