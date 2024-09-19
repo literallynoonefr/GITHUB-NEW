@@ -105,8 +105,16 @@ body{
     color: white;
 }
 
-#middle_div{
+#todos_posts{
     width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+#middle_div{
+    width: 100%;
     border: 1px solid gray;
     padding: 40px;
     color: white;

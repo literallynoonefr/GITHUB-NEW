@@ -1,0 +1,29 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+
+#botanico{
+    padding: 15px;
+    width: 150px;
+    background-color: rgb(38, 173, 226);
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+#botanico:hover{
+    background-color: rgb(162, 162, 186);
+}
+
+#botanico:active{
+    background-color: rgb(38, 173, 226);
+}
+
+section{
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
