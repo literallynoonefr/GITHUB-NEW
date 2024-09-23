@@ -1,0 +1,33 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+#div_pai{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.div_filho{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 4px;
+    width: 150px;
+    margin: 10px 15px;
+}
+
+#botao1{
+    background-color: rgb(94, 187, 227);
+    padding: 10px;
+    cursor: pointer;
+}
+
+#botao1:hover{
+    background-color: gray;
+}
+
+#botao1:active{
+    background-color: rgb(94, 187, 227);
+}

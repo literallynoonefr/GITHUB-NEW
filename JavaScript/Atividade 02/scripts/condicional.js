@@ -3,8 +3,9 @@ function explicacao(){
     let idade = Number(prompt("Qual é a idade?"))
 
     if(idade >= 0 && idade < 15){
-        alert("Criança")
-        location.reload()
+        document.getElementById('resultado').innerText = 'Você é uma criança'
+        // alert("Criança")
+        // location.reload()
     }
     
     if (idade >= 15 && idade < 30){
