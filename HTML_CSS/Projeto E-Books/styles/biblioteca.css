@@ -1,0 +1,47 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+#available_books_section{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#below_available_text{
+    margin: 20px;
+}
+
+#available_books_section img{
+    width: 100%;
+}
+
+#available_books_controller{
+    display: flex;
+    width: 800px;
+    justify-content: center;
+
+}
+
+#available_books_controller p{
+    text-align: justify;
+    padding: 5px;
+    
+}
+
+.available_books{
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    border: 10px solid white;
+    border-radius: 10px;
+    box-shadow: 10px 10px 30px;
+}
+
+
+.available_books img{
+    height: 388px;
+}
