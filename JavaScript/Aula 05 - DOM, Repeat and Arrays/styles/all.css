@@ -1,0 +1,11 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.elementos{
+    padding: 20px;
+    background-color: rgb(30, 123, 210);
+    color: white;
+    margin: 20px;
+}
