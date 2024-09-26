@@ -10,5 +10,6 @@ function calculo(){
     let n = document.getElementById("user_choice").value;
     for(let i = 1; i <= 10; i++){
         console.log(n + "*" + i + "=" + n * i);
+        // console.log(`${n} * ${i} = ${n * i}`);
     }
 }
