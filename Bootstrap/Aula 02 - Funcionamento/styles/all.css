@@ -1,0 +1,4 @@
+.carousel-caption{
+    /* !important = prioriza o SEU código */
+    background-color: rgba(128, 128, 128, 0.533)!important;
+}

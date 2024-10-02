@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- BOOTSTRAP -->
+    <link rel="stylesheet" href="styles/bootstrap.css">
+    <!-- CSS PESSOAL -->
+    <link rel="stylesheet" href="styles/all.css">
+</head>
+<body data-bs-theme="dark">
+<!-- navegação -->
+<header>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Viagens Senai</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                    <button id="btnTema" class="btn btn-outline-light mx-2" type="button">
+                    <img id="btnTemaImg" src="images/sun-fill.svg" alt="">
+                    </button>
+                </form>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<main class="p-3 my-3 container">
+    <h1>TODOS OS PACOTES DE VIAGEM</h1>
+    <section id="catalogo"></section>
+
+    <section id="carrossel">
+        <div id="carouselExampleCaptions" class="carousel slide">
+            <!-- Botões de cada item específico -->
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <!-- Conteúdo do Carrossel -->
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="images/banner1.jpg" class="d-block w-100" alt="...">
+                <div class="text-white carousel-caption d-none d-md-block">
+                  <h5>PACOTE VIAGEM 1</h5>
+                  <p>Some representative placeholder content for the first slide.</p>
+                  <button data-bs-toggle="offcanvas" data-bs-target="#carrinho" class="btn btn-outline-success" type="button">ADICIONAR AO CARRINHO</button>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="images/banner2.jpg" class="d-block w-100" alt="...">
+                <div class="text-white carousel-caption d-none d-md-block">
+                  <h5>PACOTE VIAGEM 2</h5>
+                  <p>Some representative placeholder content for the second slide.</p>
+                  <button data-bs-toggle="offcanvas" data-bs-target="#carrinho" class="btn btn-outline-success" type="button">ADICIONAR AO CARRINHO</button>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="images/banner3.jpg" class="d-block w-100" alt="...">
+                <div class="text-white carousel-caption d-none d-md-block">
+                  <h5>PACOTE VIAGEM 3</h5>
+                  <p>Some representative placeholder content for the third slide.</p>
+                  <button data-bs-toggle="offcanvas" data-bs-target="#carrinho" class="btn btn-outline-success" type="button">ADICIONAR AO CARRINHO</button>
+                </div>
+              </div>
+            </div>
+            <!-- Setas do Carrossel -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </section>
+</main>
+
+<footer></footer>
+
+<!-- offcanvas bootstrap -->
+<!-- offcanvas slide 1 -->
+<div class="offcanvas offcanvas-start" tabindex="-1" id="carrinho" aria-labelledby="offcanvasExampleLabel">
+    <div class="offcanvas-header">
+      <h5 class="offcanvas-title" id="offcanvasExampleLabel">Carrinho</h5>
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+      <h5>Item adicionado com sucesso! :D</h5>
+    </div>
+  </div>
+
+
+<!-- Modal -->
+<div class="modal fade" id="sobre_pacote" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Pacote Nordeste</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe eius est, fugit quo at nulla suscipit explicabo optio et, in, obcaecati dolorem ipsam quos recusandae asperiores possimus iure quasi voluptatibus?</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+          <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!-- Bootstrap -->
+<script src="scripts/bootstrap.bundle.js"></script>
+<!-- JS Pessoal -->
+<script src="scripts/script.js"></script>
+<script src="scripts/pacotes.js"></script>
+</body>
+</html>
