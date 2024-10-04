@@ -214,6 +214,14 @@ footer{
     font-weight: bolder;
 }
 
+#catalogo{
+    width: 100%;
+}
+
+#catalogo img{
+    width: 100%;
+    height: 350px;    
+}
 
 
 
