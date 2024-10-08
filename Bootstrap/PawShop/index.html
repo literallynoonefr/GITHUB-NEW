@@ -5,17 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PawShop</title>
     <link rel="stylesheet" href="styles/all.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
     <link rel="shortcut icon" href="images/happy_flaticon.png" type="image/x-icon">
+
 </head>
-<body>
+<body data-bs-theme="dark">
     <header>
         <nav>
-            <img src="images/logo/logoWhite.svg" alt="">
-            <a href="index.html">Home</a>
-            <a href="">Adoção</a>
-            <a href="">Galeria</a>
-            <a href="">Contatos</a>
-            <a href="pages/loja.html">Loja</a>
+            <div id="nav_div1">
+                <img src="images/logo/logoWhite.svg" alt="">
+                <a href="index.html">Home</a>
+                <a href="">Adoção</a>
+                <a href="">Galeria</a>
+                <a href="">Contatos</a>
+                <a href="pages/loja.html">Loja</a>
+            </div>
+
+            <div id="nav_div2">
+                <button  onclick="trocarTema(true)"  id="btnTema" class="btn btn-outline-light mx-2" type="button">
+                    <img id="btnTemaImg" src="images/sun-fill.svg" alt="">
+                </button>
+            </div>
         </nav>
     </header>
 
@@ -97,5 +107,8 @@
     <footer>
         &copy; Todos os direitos reservados a @PawShop - 2024
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="scripts/script.js"></script>
 </body>
 </html>

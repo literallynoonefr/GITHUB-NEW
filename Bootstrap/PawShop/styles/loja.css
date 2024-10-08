@@ -9,12 +9,17 @@
     font-family: Roboto-Light;
 }
 
+#btnTemaImg{
+    width: 100%;
+}
+
 #catalogo{
     display: flex;
     justify-content: center;
     gap: 30px;
     width: 100%;
     margin-bottom: 50px;
+    flex-wrap: wrap;
 }
 
 #catalogo img{
@@ -64,6 +69,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 15px;
 }
 
 #carrinho_lista img{
