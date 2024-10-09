@@ -3,6 +3,10 @@
     padding: 0%;
 }
 
+#btnTemaImg{
+    width: 100%;
+}
+
 header{
     background-color: gray;
     width: 100%;
@@ -120,6 +124,31 @@ nav img{
 #original_poster img{
     width: 13%;
 }
+
+#pesquisar_input{
+    background-color: rgba(35, 148, 247, 0.335);
+    padding: 6px;
+    width: 250px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+}
+
+#pesquisar_input:hover{
+    border: 1px solid lightgreen;
+}
+
+#select_customizer{
+    background-color: lightgray;
+    padding: 12px;
+    border: none;
+}
+
+#select_customizer:hover{
+    cursor: pointer;
+    opacity: 0.7;
+}
+
 
 #middle_section2_div2 select{
     width: 40%;
