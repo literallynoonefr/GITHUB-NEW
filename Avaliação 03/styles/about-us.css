@@ -1,0 +1,40 @@
+#top_main_h1{
+    text-align: center;
+    margin: 50px;
+}
+
+#image_template_bg{
+    background-color: rgb(46, 44, 44);
+    width: 50%;
+    height: 380px;
+    border-radius: 10px;
+}
+
+#all_father{
+    background-color: lightgray;
+    padding: 15px;
+}
+
+#div_controller{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+#middle_div{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+#carrossel{
+    width: 60%;
+    margin: 50px auto;
+    height: 645px;
+    overflow: hidden;
+}
+
+#carrossel img{
+    width: 100%;
+}

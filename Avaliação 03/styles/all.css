@@ -109,17 +109,16 @@ nav img{
 
 #original_poster{
     display: flex;
-    align-items: center;
     gap: 10px;
 }
 
 #OP_img_control{
     border-radius: 100%;
-    height: 35px;
+    height: 30px;
 }
 
 #original_poster img{
-    width: 15%;
+    width: 13%;
 }
 
 #middle_section2_div2 select{
