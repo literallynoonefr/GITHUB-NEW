@@ -1,3 +1,5 @@
+/* CSS ESPECÍFICO PARA A PÁGINA SOBRE A *EQUIPE/TIME* */
+
 #all_father{
     display: flex;
     justify-content: center;
@@ -46,14 +48,13 @@
     justify-content: center;
     gap: 10px;
     width: 75%;
-
-    
 }
 
 #image_division2_organizer img{
     width: 100%;
 }
 
+/* Configs mínimas para o modal "instalado" na primeira imagem do topo */
 #my_modal_img:hover{
     cursor: pointer;
     opacity: 0.7;
