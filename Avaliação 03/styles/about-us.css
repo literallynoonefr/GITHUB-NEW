@@ -1,8 +1,12 @@
+/* CSS ESPECÍFICO PARA A PÁGINA *SOBRE A EMPRESA* */
+
+/* Título principal no topo */
 #top_main_h1{
     text-align: center;
     margin: 50px;
 }
 
+/* Background utilizado para simular um template de imagem */
 #image_template_bg{
     background-color: rgb(46, 44, 44);
     width: 50%;
@@ -10,6 +14,7 @@
     border-radius: 10px;
 }
 
+/* SEÇÃO CENTRAL */
 #all_father{
     background-color: lightgray;
     padding: 15px;
@@ -27,7 +32,9 @@
     align-items: center;
     gap: 30px;
 }
+/* FIM DA SEÇÃO CENTRAL */
 
+/* Algumas configs do carrossel */
 #carrossel{
     width: 60%;
     margin: 50px auto;

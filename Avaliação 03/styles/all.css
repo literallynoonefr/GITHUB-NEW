@@ -1,8 +1,15 @@
+/* CSS GERAL */
 *{
     margin: 0%;
     padding: 0%;
 }
 
+/* Controlador do tamanho da imagem atribuída ao botão para trocar de tema */
+#btnTemaImg{
+    width: 100%;
+}
+
+/* HEADER */
 header{
     background-color: gray;
     width: 100%;
@@ -32,7 +39,9 @@ nav img{
     align-items: center;
     gap: 20px;
 }
+/* FIM DO HEADER */
 
+/* SEÇÃO SUPERIOR */
 #top_section{
     margin: 50px;
     display: flex;
@@ -47,7 +56,9 @@ nav img{
     background-color: gray;
     border-radius: 100%; 
 }
+/* FIM DA SEÇÃO SUPERIOR */
 
+/* SEÇÃO CENTRAL */
 #explore_h1{
     background-color: lightgray;
     height: 70px;
@@ -121,10 +132,38 @@ nav img{
     width: 13%;
 }
 
+/* SELETORES (<select> e <option>) */
+#pesquisar_input{
+    background-color: rgba(35, 148, 247, 0.335);
+    padding: 6px;
+    width: 250px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+}
+
+#pesquisar_input:hover{
+    border: 1px solid lightgreen;
+}
+
+#select_customizer{
+    background-color: lightgray;
+    padding: 12px;
+    border: none;
+}
+
+#select_customizer:hover{
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+
 #middle_section2_div2 select{
     width: 40%;
 }
+/* FIM DA SEÇÃO CENTRAL */
 
+/* SEÇÃO INFERIOR */
 #bottom_h1{
     background-color: lightgray;
     height: 70px;
@@ -161,5 +200,6 @@ footer{
     flex-direction: column;
     align-items: center;
 }
+/* FIM DA SEÇÃO INFERIOR */
 
 
