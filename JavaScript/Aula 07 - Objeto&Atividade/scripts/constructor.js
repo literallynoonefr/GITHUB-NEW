@@ -38,7 +38,7 @@ function mostrar_carro(){
             <p> ${carro.vel_max} </p>
             <p> ${carro.vel_min} </p>
             <input id="aceleracao_input" type="number">
-            <button id="acelerar_botao" type="button">ACELERACION</button>
+            <button id="acelerar_botao" type="button">ACELERAR</button>
         </div>
     `
     document.querySelector("#acelerar_botao").addEventListener('click', carro.acelerar)
