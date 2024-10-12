@@ -29,23 +29,22 @@ header a{
   font-size: 15pt;
 }
 
-.books{
-  background-color: darkgreen;
-  width: 150%;
-  margin: 20px auto;
-  padding: 10px;
-  border-radius: 15px;
+
+#catalog{
+  display: flex;
+
 }
 
 #catalog ul{
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  gap: 50px;
-  margin: 10px;
-  flex-basis: ;
-  width: 10%;
+  gap: 10px;
   flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 80px;
 }
 
-/* https://tobiasahlin.com/blog/flexbox-break-to-new-row/ */
+.books{
+  background-color: rgb(255, 166, 0);
+  padding: 15px;
+  width: 40%;
+}
