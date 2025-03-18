@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LH Games - Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header></header>
+    <main>
+        <section id="section-login">
+            <h1>Login</h1>
+            <div class="d-flex justify-content-center">
+                <form method="post" action="" id="login">
+                    <p>
+                        <label for="usuario">Nome: </label>
+                        <input id="usuario" name="usuario" required="required" type="text" placeholder="Insira o seu usuário">
+                    </p>
+
+                    <p>
+                        <label for="senha">Senha: </label>
+                        <input id="senha" name="senha" required="required" type="password" placeholder="Insira sua senha">
+                    </p>
+
+                    <p>
+                        <input type="button" value="Login" class="btn btn-primary" id="bt-login">
+                    </p>
+                </form>
+            </div>
+        </section>
+
+        <section id="section-cadastro">
+            <div id="botao-cadastrar">
+                <button type="button" class="btn btn-info">Não cadastrado ainda? Cadastre-se!</button>
+            </div>
+
+            <div id="form-cadastrar">
+                <h1>Criar minha conta</h1>
+                <p>Informe os seus dados abaixo para criar sua conta.</p>
+
+                <div class="d-flex justify-content-center">
+                    <form method="post" action="" id="login">
+                        <p>
+                            <label for="usuario">Usuário: </label>
+                            <input id="usuario" name="usuario" required="required" type="text" placeholder="Nome de usuário" class="form-control">
+                        </p>
+
+                        <p>
+                            <label for="email">Email: </label>
+                            <input id="email" name="email" required="required" type="email" placeholder="seuemail@email.com" class="form-control">
+                        </p>
+
+                        <p>
+                            <label for="senha">Senha: </label>
+                            <input id="senha" name="senha" required="required" type="password" placeholder="Mínimo de 6 caractéres">
+                        </p>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por 000 &copy;</p>
+    </footer>
+</body>
+</html>
